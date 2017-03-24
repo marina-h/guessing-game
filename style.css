@@ -1,5 +1,5 @@
 .center {
-  text-align: center;
+    text-align: center;
 }
 
 ul {
@@ -11,6 +11,60 @@ img {
     display: inline;
     width: 200px;
     height: 100px;
+}
+
+button {
+    box-shadow: 2px 2px 1px black;
+}
+
+#app {
+    background-image: url('Satellites-Wallpaper.png');
+    background-size: contain;
+}
+
+#headers {
+    margin: 5em auto 2em auto;
+}
+
+#input-parent {
+    width: 160px;
+    margin: 5% auto 50px;
+    position: relative;
+}
+
+#player-input {
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    font-size: 60px;
+    box-shadow: 2px 2px 1px black;
+}
+
+#submit {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 110px;
+    left: 110px;
+}
+
+#menu-btns {
+    margin: 2em auto;
+}
+
+.guess {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10%;
+    display: inline;
+    font-size: 60px;
+    padding: 0 25px;
+    box-shadow: 2px 2px 1px black;
+}
+
+#reset {
+    margin: 10px;
 }
 
 #footer {

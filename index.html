@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Guessing Game</title>
 
-    <!-- Bootstrap and CSS here-->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel='stylesheet' type='text/css' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'
 
   </head>
   <body>
 
-      <div id="app" class="center">
+      <div id="app" class="center container">
 
         <div id="headers">
           <h1 id="title" >Play the Guessing Game!</h1>
@@ -18,23 +20,23 @@
 
         <div id="main">
           <div id="input-parent">
-            <input id="player-input" autofocus="autofocus" maxlength="3" placeholder="#">
-            <button id="submit">Go!</button>
+            <input id="player-input" class="center" autofocus="autofocus" maxlength="3" placeholder="#">
+            <button id="submit" class="btn btn-success">Go!</button>
           </div>
 
           <div id="guesses">
             <ul id="guess-list">
-              <li class="guess">___</li>
-              <li class="guess">___</li>
-              <li class="guess">___</li>
-              <li class="guess">___</li>
-              <li class="guess">___</li>
+              <li class="guess">-</li>
+              <li class="guess">-</li>
+              <li class="guess">-</li>
+              <li class="guess">-</li>
+              <li class="guess">-</li>
             </ul>
           </div>
 
           <div id="menu-btns">
-            <button id="reset">Reset</button>
-            <button id="hint">Give me a hint</button>
+            <button id="reset" class="btn btn-warning">Reset</button>
+            <button id="hint" class="btn btn-info">Give me a hint</button>
           </div>
         </div>
       </div>
@@ -42,16 +44,16 @@
 
 
     <div id="footer" class="center">
-        <div>
-          <div class="">
+        <div class="row">
+          <div class="col-sm-4">
             <img src="fa-logo@2x.png"></img>
           </div>
 
-          <div class="">
+          <div class="col-sm-4">
             <h4>Project by Marina Hoashi</h4>
           </div>
 
-          <div class="">
+          <div class="col-sm-4">
             <img src="grace_hopper_academy.png"></img>
           </div>
 
@@ -59,5 +61,7 @@
         </div>
     </div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
